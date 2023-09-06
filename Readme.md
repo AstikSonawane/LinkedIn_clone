@@ -7,7 +7,8 @@ This is a LinkedIn clone webpage created using HTML and CSS. It replicates the b
 
 ## Demo of Recreated LinkedIn webpage
 
-![LinkedIn_clone](https://github.com/AstikSonawane/LinkedIn_clone/assets/103988783/e07dd9e7-1c26-495c-ad3f-76f55baf576e)
+![LinkedIn_clone](https://github.com/AstikSonawane/LinkedIn_clone/assets/103988783/76539bf4-9f12-4fa1-9029-f7e5cad2e7d7)
+
 
 
 ## Table of Contents
@@ -56,7 +57,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Create a pull request to the main repository
 
 Feel free to customize this template to fit your project's details and requirements. Replace placeholders like `your-username`, `project-name`, and update sections accordingly. You can also add more sections or rearrange them based on the specifics of your project.
-
+There are some slight changes in icons due to unavailability of getting similar ones.
 ## Acknowledgments
 
 - [Original LinkedIn Website](https://www.linkedin.com/)
