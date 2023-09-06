@@ -43,7 +43,6 @@ Simply open the `Linkedin.html` file in a web browser to view and interact with 
 
 - HTML
 - CSS
-- JavaScript (if applicable)
 - VS Code
 
 ## Contributing
