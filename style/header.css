@@ -1,0 +1,194 @@
+.header{
+    position: fixed;
+
+    top: 0;
+    right: 0;
+    left: 0;
+    
+    height: 55px;
+    background-color: white;
+    display: flex;
+    z-index: 1;
+    
+    justify-content: space-between;
+}
+.left-section{
+    
+    width: 645px;
+    display: flex;
+    flex: 1fr;
+    
+}
+.middle-section{
+    
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 8px;
+    
+    
+    flex-shrink: 0;
+}
+.right-section{
+    flex: 1;
+    width: 270px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: rgb(222, 222, 222);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.search-bar{
+    flex: 1fr;
+    height: 32px;
+    width: 225px;
+    margin-top: 8px;
+
+    font-family: cambria;
+    font-size: 14px;
+    font-weight: 500;
+
+    background-color: rgb(226, 234, 239);
+    border-style: solid;
+    border-width: 1px;
+    border-color:  rgb(226, 234, 239);
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 2px 0.05 #eeeeee;
+    text-align: start;
+    padding-left: 42px;
+    position: relative;
+    z-index: 100;
+}
+
+.search{
+    width: 18px;
+    height: 20px;
+    z-index: 200;
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 20px;
+
+}
+
+.linkedin_logo{
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-left: 200px;
+    margin-right: 8px;
+}
+.home-icon, .job-icon,
+.message-icon, .notif-icon,
+.app-icon{
+    height: 25px;
+    width: 25px;
+    opacity: 0.60;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.home-icon:hover, .job-icon:hover,
+.message-icon:hover, .notif-icon:hover,
+.app-icon:hover, .group-icon:hover{
+    
+    opacity: 1;
+    cursor: pointer;
+}
+
+.group-icon{
+    opacity: 0.60;
+    height: 40px;
+    width: 40px;
+    padding-top: 0px;
+    padding-bottom: 12px;
+}
+.user-account-icon{
+    border-style: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 13px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+.notif-icon-container{
+    position: relative;
+}
+.notif-no{
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    color: white;
+    background-color: rgb(203, 34, 34);
+    
+    
+    border-radius: 10px;
+    font-size: 11px;
+
+    font-weight: 500;
+    font-family: Roboto, Arial;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.home-icon-container, .job-icon-container, .message-icon-container,
+.notif-icon-container, .group-icon-container, .user-account-icon-container,
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 52px;
+    position: relative;
+}
+.home-icon-container{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    position: relative;
+}
+.red-dot{
+    position: absolute;
+    top: 4px;
+    right: 20px;
+    cursor: pointer;
+  
+}
+.app-container{
+    width: 110px;
+}
+
+.home-text, .group-text, .job-text, .message-text,
+.notif-text, .user-text, .business-text{
+    position: absolute;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    bottom: 2px;
+    color: rgb(103, 103, 103);
+    padding-bottom: 2px;
+}
+
+.business{
+    color: rgb(134, 71, 0);
+    font-weight: 100;
+    font-size: 14px;
+    text-align: center;
+    font-family: calibri;
+}
+.business-container-right{
+    width: 130px;
+    height: 52px;
+    margin-left: 2px;
+   
+    padding-right: 160px;
+    padding-top: 20px;
+}

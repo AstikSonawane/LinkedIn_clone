@@ -1,0 +1,371 @@
+.sidebar{
+    
+    margin-top: 80px;
+    width: 230px;
+    height: 1px;
+    margin-left: 180px;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    
+}
+.profile-side{
+    margin-top: 0;
+    height: 350px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.sunset-bg{
+    height: 50px;
+    width: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+    position: absolute;
+}
+.profilepic{
+    width: 70px;
+    height: 70px;
+    
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 38px;
+    position: relative;
+    top: 18px;
+    left: 75px;
+}
+.user-reach{
+    font-family: calibri;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 30px;
+    color: #3b3939;
+    cursor: pointer;
+}
+.user-reach-info{
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #3b3939;
+    padding-top: 4px;
+    width: 210px;
+    padding-left: 8px;
+    padding-bottom: 18px
+    
+}
+.user-reach-info-inline{
+    display: grid;
+    grid-template-rows: 20px 1fr;
+    
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #dbdbdb;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #dbdbdb;
+
+    height: 70px;
+    font-family: calibri;
+    font-size: 14px;
+    color: #3b3939;
+    font-weight: 500;
+
+    
+}
+.views-text{
+    display: inline;
+    padding-left: 8px;
+    
+    width: 200px;
+    font-family: calibri;
+    font-size: 14px;
+    height: 20px;
+    
+
+}
+.views{
+    display: inline;
+    
+    height: 5px;
+    width: 20px;
+    padding-left: 45px;
+    text-align: right;
+    font-family: calibri;
+    font-size: 14px;
+    text-align: right;
+    opacity: 1;
+}
+.overall-views{
+    padding-top: 20px;
+    cursor: pointer;
+}
+.overall-views1{
+    padding-top: 10px;
+    cursor: pointer;
+}
+.access-text{
+    display: inline;
+    padding-left: 8px;
+    padding-right: 35px;
+    width: 230px;
+    font-family: calibri;
+    font-size: 14px;
+    height: 20px;
+    
+}
+.access-info-inline{
+    display: grid;
+    grid-template-rows: 20px 1fr;
+    
+    
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #dbdbdb;
+    padding-bottom: 2px;
+    height: 50px;
+    font-family: calibri;
+    font-size: 14px;
+    color: #3b3939;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+}
+.premium-text{
+    display: inline;
+    padding-left: 8px;
+    
+    width: 180px;
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: 550;
+    height: 1fr;
+   
+    
+}
+.smallbox{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(231, 163, 62);
+    margin-left: 8px;
+    
+}
+.items{
+    display: grid;
+    grid-template-rows: 20px 1fr;
+    
+    
+    height: 40px;
+    width: 230px;
+    font-family: calibri;
+    font-size: 14px;
+    color: #3b3939;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+}
+.bookmark-icon{
+    display: inline;
+    height: 18px;
+    width: 20px;
+   
+   
+    opacity: 0.5;
+  
+}
+.items-text{
+    display: inline;
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3b3939;
+    text-align: left;
+    width: 1fr;
+    padding-left: 4px;
+   
+   
+}
+.bookmark-icon-container{
+    display: inline;
+    width: 1fr;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 5px ;
+
+}
+
+.items:hover{
+    background-color: #d3d3d3;
+    opacity: 1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.user-reach-info-inline:hover, .access-info-inline:hover{
+    background-color: #d3d3d3;
+    opacity: 1;
+}
+.sidebar-groups {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    margin-top: 6px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative; /* Add relative positioning to the master div */
+  }
+  .recent-block{
+   
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .recent-text{
+    font-family: calibri;
+    font-size: 14px;
+    
+    margin-top: 12px;
+    margin-left: 8px;
+  }
+  
+  .arrow-container {
+    height: 30px;
+    width: 30px;
+    
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    opacity: 0;
+  }
+  .arrow{
+  
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+   
+  }
+  .recent-block:hover .arrow-container:hover{
+    opacity: 1;
+    transition: opacity 0.15s;
+    border-style: none;
+    border-radius: 15px;
+  }
+  .recent1{
+    display: grid;
+    grid-template-rows: 25px 1fr;
+ 
+    
+  }
+  .robo{
+    display: inline-block;
+    height: 25px;
+    width: 20px;
+    display: inline;
+    padding-top: 2px;
+  
+  }
+  .recent1-text{
+    background-color: rgb(255, 255, 255);
+    padding-left: 8px;
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: 500;
+    color: #766666;
+    display: grid;
+
+    grid-template-columns: 20px 1fr;
+    background-color: white;
+  }
+  .textrecent{
+    display: inline;
+    
+    margin-top: 6px;
+    margin-left: 5px;
+  }
+  .community{
+    display: inline-block;
+    height: 25px;
+    width: 18px;
+    display: inline;
+    padding-top: 2px;
+    opacity: 0.7;
+    padding-left: 2px;
+  }
+  .recent1-text:hover, .see-text:hover{
+    background-color: #eeee;
+    cursor: pointer;
+  }
+  .groups-block{
+    background-color: white;
+    display: grid;
+    padding-top: 10px;
+    
+  }
+  .see-text{
+    font-size: 13px;
+    font-family: calibri;
+    font-weight: 500;
+    padding-top: 5px;
+    color: #766666;
+    background-color: white;
+    padding-left: 35px;
+    padding-bottom: 6px;
+  }
+  .events{
+    font-size: 14px;
+    font-family: calibri;
+    font-weight: 500;
+   
+    color: #766666;
+    background-color: white;
+    padding-left: 8px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    position: relative;
+  }
+  .events:hover, .follow:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .plus{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 8px;
+    opacity: 0.6;
+  }
+  .plus:hover{
+    background-color:#aaaaaa;
+    border-radius: 15px;
+    padding: 4px;
+  }
+  .follow{
+    font-size: 14px;
+    font-family: calibri;
+    font-weight: 500;
+   
+    background-color: white;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    color:   rgb(14, 40, 238);
+    border-bottom-color: #dbdbdb;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    
+  }
+  .discover{
+    background-color: white;
+    color:  #948c8c;
+    font-size: 16px;
+    font-family: calibri;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 18px;
+    height: 35px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .discover:hover{
+    background-color: #eeee;
+  }
